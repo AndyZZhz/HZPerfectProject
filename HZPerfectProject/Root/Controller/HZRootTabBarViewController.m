@@ -24,15 +24,15 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view.
     self.homeVC = [[HZHomeViewController alloc]init];
-    self.homeVC.tabBarItem.image = [UIImage imageNamed:@"tabbar_dark_normal"];
-    self.homeVC.tabBarItem.selectedImage = [[UIImage imageNamed:@"tabbar_dark_selected"]imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal];
+    self.homeVC.tabBarItem.image = [UIImage imageNamed:@"icon_xhw"];
+    self.homeVC.tabBarItem.selectedImage = [[UIImage imageNamed:@"icon_xhw_pre"]imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal];
     self.homeVC.title = @"首页";
     self.homeNavitationController = [[UINavigationController alloc]initWithRootViewController:self.homeVC];
 
     //
     self.mineVC = [[HZMineViewController alloc]init];
-    self.homeVC.tabBarItem.image = [UIImage imageNamed:@"tabbar_dark_normal"];
-    self.mineVC.tabBarItem.selectedImage = [[UIImage imageNamed:@"tabbar_dark_selected"]imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal];
+    self.homeVC.tabBarItem.image = [UIImage imageNamed:@"icon_zxs"];
+    self.mineVC.tabBarItem.selectedImage = [[UIImage imageNamed:@"icon_zxs_pre"]imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal];
     self.mineVC.title = @"我的";
     self.mineNavitationController = [[UINavigationController alloc]initWithRootViewController:self.mineVC];
 
