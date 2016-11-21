@@ -8,13 +8,35 @@
 
 /* Begin PBXBuildFile section */
 		0BBF255D1DD4494400165883 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BBF255C1DD4494400165883 /* main.m */; };
-		0BBF25601DD4494400165883 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BBF255F1DD4494400165883 /* AppDelegate.m */; };
-		0BBF25631DD4494400165883 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BBF25621DD4494400165883 /* ViewController.m */; };
-		0BBF25661DD4494400165883 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0BBF25641DD4494400165883 /* Main.storyboard */; };
-		0BBF25681DD4494400165883 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0BBF25671DD4494400165883 /* Assets.xcassets */; };
-		0BBF256B1DD4494400165883 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0BBF25691DD4494400165883 /* LaunchScreen.storyboard */; };
 		0BBF25761DD4494500165883 /* HZPerfectProjectTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BBF25751DD4494500165883 /* HZPerfectProjectTests.m */; };
 		0BBF25811DD4494500165883 /* HZPerfectProjectUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BBF25801DD4494500165883 /* HZPerfectProjectUITests.m */; };
+		0BBF259D1DD44D2000165883 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BBF259A1DD44D2000165883 /* AppDelegate.m */; };
+		0BBF259E1DD44D2000165883 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BBF259A1DD44D2000165883 /* AppDelegate.m */; };
+		0BBF259F1DD44D2000165883 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BBF259A1DD44D2000165883 /* AppDelegate.m */; };
+		0BBF25A01DD44D2000165883 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BBF259C1DD44D2000165883 /* ViewController.m */; };
+		0BBF25A11DD44D2000165883 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BBF259C1DD44D2000165883 /* ViewController.m */; };
+		0BBF25A21DD44D2000165883 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BBF259C1DD44D2000165883 /* ViewController.m */; };
+		0BBF25AA1DD44D8F00165883 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0BBF25A31DD44D8F00165883 /* Assets.xcassets */; };
+		0BBF25AB1DD44D8F00165883 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0BBF25A31DD44D8F00165883 /* Assets.xcassets */; };
+		0BBF25AC1DD44D8F00165883 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0BBF25A31DD44D8F00165883 /* Assets.xcassets */; };
+		0BBF25AD1DD44D8F00165883 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0BBF25A51DD44D8F00165883 /* LaunchScreen.storyboard */; };
+		0BBF25AE1DD44D8F00165883 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0BBF25A51DD44D8F00165883 /* LaunchScreen.storyboard */; };
+		0BBF25AF1DD44D8F00165883 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0BBF25A51DD44D8F00165883 /* LaunchScreen.storyboard */; };
+		0BBF25B01DD44D8F00165883 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0BBF25A71DD44D8F00165883 /* Main.storyboard */; };
+		0BBF25B11DD44D8F00165883 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0BBF25A71DD44D8F00165883 /* Main.storyboard */; };
+		0BBF25B21DD44D8F00165883 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0BBF25A71DD44D8F00165883 /* Main.storyboard */; };
+		0BBF25B71DD44DE400165883 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0BBF25B61DD44DE400165883 /* Info.plist */; };
+		0BBF25B81DD44DE400165883 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0BBF25B61DD44DE400165883 /* Info.plist */; };
+		0BBF25B91DD44DE400165883 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0BBF25B61DD44DE400165883 /* Info.plist */; };
+		0BDC09221DE2C7500022AAEC /* HZRootTabBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BDC09211DE2C7500022AAEC /* HZRootTabBarViewController.m */; };
+		0BDC09381DE2CBBC0022AAEC /* UIView+CalcLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BDC09371DE2CBBC0022AAEC /* UIView+CalcLayout.m */; };
+		0BDC093D1DE2D1ED0022AAEC /* HZBaseTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BDC093C1DE2D1ED0022AAEC /* HZBaseTableViewCell.m */; };
+		0BDC09401DE2D2370022AAEC /* HZBaseLine.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BDC093F1DE2D2370022AAEC /* HZBaseLine.m */; };
+		0BDC09461DE2D43B0022AAEC /* HZBaseListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BDC09431DE2D43B0022AAEC /* HZBaseListViewController.m */; };
+		0BDC09471DE2D43B0022AAEC /* HZBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BDC09451DE2D43B0022AAEC /* HZBaseViewController.m */; };
+		0BDC094D1DE2D47C0022AAEC /* HZHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BDC094C1DE2D47C0022AAEC /* HZHomeViewController.m */; };
+		0BDC09501DE2D4890022AAEC /* HZMineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BDC094F1DE2D4890022AAEC /* HZMineViewController.m */; };
+		D9D0A471847FDB9C42BFA282 /* libPods-HZPerfectProject.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 72AF1C745295A75DCFE1EA38 /* libPods-HZPerfectProject.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,20 +59,42 @@
 /* Begin PBXFileReference section */
 		0BBF25581DD4494400165883 /* HZPerfectProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HZPerfectProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0BBF255C1DD4494400165883 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		0BBF255E1DD4494400165883 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		0BBF255F1DD4494400165883 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		0BBF25611DD4494400165883 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		0BBF25621DD4494400165883 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		0BBF25651DD4494400165883 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		0BBF25671DD4494400165883 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		0BBF256A1DD4494400165883 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		0BBF256C1DD4494400165883 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0BBF25711DD4494500165883 /* HZPerfectProjectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HZPerfectProjectTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0BBF25751DD4494500165883 /* HZPerfectProjectTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HZPerfectProjectTests.m; sourceTree = "<group>"; };
 		0BBF25771DD4494500165883 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0BBF257C1DD4494500165883 /* HZPerfectProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HZPerfectProjectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0BBF25801DD4494500165883 /* HZPerfectProjectUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HZPerfectProjectUITests.m; sourceTree = "<group>"; };
 		0BBF25821DD4494500165883 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0BBF258F1DD44A0800165883 /* HZPerfectProject-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "HZPerfectProject-Prefix.pch"; sourceTree = "<group>"; };
+		0BBF25991DD44D2000165883 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		0BBF259A1DD44D2000165883 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		0BBF259B1DD44D2000165883 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		0BBF259C1DD44D2000165883 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		0BBF25A31DD44D8F00165883 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0BBF25A61DD44D8F00165883 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0BBF25A81DD44D8F00165883 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Main.storyboard; sourceTree = "<group>"; };
+		0BBF25B61DD44DE400165883 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0BDC09201DE2C7500022AAEC /* HZRootTabBarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HZRootTabBarViewController.h; sourceTree = "<group>"; };
+		0BDC09211DE2C7500022AAEC /* HZRootTabBarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HZRootTabBarViewController.m; sourceTree = "<group>"; };
+		0BDC09341DE2C91F0022AAEC /* HZViewDefine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HZViewDefine.h; sourceTree = "<group>"; };
+		0BDC09361DE2CBBC0022AAEC /* UIView+CalcLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+CalcLayout.h"; sourceTree = "<group>"; };
+		0BDC09371DE2CBBC0022AAEC /* UIView+CalcLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+CalcLayout.m"; sourceTree = "<group>"; };
+		0BDC09391DE2CDDB0022AAEC /* HZCategoryDefine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HZCategoryDefine.h; sourceTree = "<group>"; };
+		0BDC093B1DE2D1ED0022AAEC /* HZBaseTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HZBaseTableViewCell.h; sourceTree = "<group>"; };
+		0BDC093C1DE2D1ED0022AAEC /* HZBaseTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HZBaseTableViewCell.m; sourceTree = "<group>"; };
+		0BDC093E1DE2D2370022AAEC /* HZBaseLine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HZBaseLine.h; sourceTree = "<group>"; };
+		0BDC093F1DE2D2370022AAEC /* HZBaseLine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HZBaseLine.m; sourceTree = "<group>"; };
+		0BDC09421DE2D43B0022AAEC /* HZBaseListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HZBaseListViewController.h; sourceTree = "<group>"; };
+		0BDC09431DE2D43B0022AAEC /* HZBaseListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HZBaseListViewController.m; sourceTree = "<group>"; };
+		0BDC09441DE2D43B0022AAEC /* HZBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HZBaseViewController.h; sourceTree = "<group>"; };
+		0BDC09451DE2D43B0022AAEC /* HZBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HZBaseViewController.m; sourceTree = "<group>"; };
+		0BDC094B1DE2D47C0022AAEC /* HZHomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HZHomeViewController.h; sourceTree = "<group>"; };
+		0BDC094C1DE2D47C0022AAEC /* HZHomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HZHomeViewController.m; sourceTree = "<group>"; };
+		0BDC094E1DE2D4890022AAEC /* HZMineViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HZMineViewController.h; sourceTree = "<group>"; };
+		0BDC094F1DE2D4890022AAEC /* HZMineViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HZMineViewController.m; sourceTree = "<group>"; };
+		53BF0C8DC1E8038CE27AA87F /* Pods-HZPerfectProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HZPerfectProject.release.xcconfig"; path = "Pods/Target Support Files/Pods-HZPerfectProject/Pods-HZPerfectProject.release.xcconfig"; sourceTree = "<group>"; };
+		5DB595E10795740A78367FCE /* Pods-HZPerfectProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HZPerfectProject.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HZPerfectProject/Pods-HZPerfectProject.debug.xcconfig"; sourceTree = "<group>"; };
+		72AF1C745295A75DCFE1EA38 /* libPods-HZPerfectProject.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-HZPerfectProject.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +102,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D9D0A471847FDB9C42BFA282 /* libPods-HZPerfectProject.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,6 +130,8 @@
 				0BBF25741DD4494500165883 /* HZPerfectProjectTests */,
 				0BBF257F1DD4494500165883 /* HZPerfectProjectUITests */,
 				0BBF25591DD4494400165883 /* Products */,
+				10DED8405A23683C5D9183E2 /* Pods */,
+				E670FD8B0B6E9F775C252F8A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,14 +148,14 @@
 		0BBF255A1DD4494400165883 /* HZPerfectProject */ = {
 			isa = PBXGroup;
 			children = (
-				0BBF255E1DD4494400165883 /* AppDelegate.h */,
-				0BBF255F1DD4494400165883 /* AppDelegate.m */,
-				0BBF25611DD4494400165883 /* ViewController.h */,
-				0BBF25621DD4494400165883 /* ViewController.m */,
-				0BBF25641DD4494400165883 /* Main.storyboard */,
-				0BBF25671DD4494400165883 /* Assets.xcassets */,
-				0BBF25691DD4494400165883 /* LaunchScreen.storyboard */,
-				0BBF256C1DD4494400165883 /* Info.plist */,
+				0BBF25921DD44BBE00165883 /* Main */,
+				0BDC091D1DE2C7110022AAEC /* Root */,
+				0BBF25BA1DD44EAA00165883 /* Helpers */,
+				0BBF25961DD44C1500165883 /* Sections */,
+				0BBF25981DD44C9200165883 /* Venders */,
+				0BBF25951DD44BFC00165883 /* Category */,
+				0BBF25941DD44BE800165883 /* Macro */,
+				0BBF25971DD44C6700165883 /* Resources */,
 				0BBF255B1DD4494400165883 /* Supporting Files */,
 			);
 			path = HZPerfectProject;
@@ -117,7 +164,9 @@
 		0BBF255B1DD4494400165883 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				0BBF25B61DD44DE400165883 /* Info.plist */,
 				0BBF255C1DD4494400165883 /* main.m */,
+				0BBF258F1DD44A0800165883 /* HZPerfectProject-Prefix.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -140,6 +189,232 @@
 			path = HZPerfectProjectUITests;
 			sourceTree = "<group>";
 		};
+		0BBF25921DD44BBE00165883 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				0BBF25991DD44D2000165883 /* AppDelegate.h */,
+				0BBF259A1DD44D2000165883 /* AppDelegate.m */,
+				0BBF259B1DD44D2000165883 /* ViewController.h */,
+				0BBF259C1DD44D2000165883 /* ViewController.m */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		0BBF25941DD44BE800165883 /* Macro */ = {
+			isa = PBXGroup;
+			children = (
+				0BDC09341DE2C91F0022AAEC /* HZViewDefine.h */,
+				0BDC09391DE2CDDB0022AAEC /* HZCategoryDefine.h */,
+			);
+			path = Macro;
+			sourceTree = "<group>";
+		};
+		0BBF25951DD44BFC00165883 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				0BDC09351DE2CB250022AAEC /* UIView */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		0BBF25961DD44C1500165883 /* Sections */ = {
+			isa = PBXGroup;
+			children = (
+				0BDC09231DE2C7B20022AAEC /* Home */,
+				0BDC09271DE2C7B20022AAEC /* Mine */,
+			);
+			path = Sections;
+			sourceTree = "<group>";
+		};
+		0BBF25971DD44C6700165883 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				0BBF25A51DD44D8F00165883 /* LaunchScreen.storyboard */,
+				0BBF25A31DD44D8F00165883 /* Assets.xcassets */,
+				0BBF25A71DD44D8F00165883 /* Main.storyboard */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		0BBF25981DD44C9200165883 /* Venders */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Venders;
+			sourceTree = "<group>";
+		};
+		0BBF25BA1DD44EAA00165883 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				0BBF25BC1DD44F1900165883 /* BaseClass */,
+				0BBF25BE1DD44F6700165883 /* Manager */,
+				0BBF25BB1DD44EF100165883 /* NetWork */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		0BBF25BB1DD44EF100165883 /* NetWork */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = NetWork;
+			sourceTree = "<group>";
+		};
+		0BBF25BC1DD44F1900165883 /* BaseClass */ = {
+			isa = PBXGroup;
+			children = (
+				0BDC09411DE2D4210022AAEC /* Controller */,
+				0BDC093A1DE2D1CC0022AAEC /* View */,
+			);
+			path = BaseClass;
+			sourceTree = "<group>";
+		};
+		0BBF25BE1DD44F6700165883 /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Manager;
+			sourceTree = "<group>";
+		};
+		0BDC091D1DE2C7110022AAEC /* Root */ = {
+			isa = PBXGroup;
+			children = (
+				0BDC091F1DE2C71B0022AAEC /* View */,
+				0BDC091E1DE2C71B0022AAEC /* Controller */,
+			);
+			path = Root;
+			sourceTree = "<group>";
+		};
+		0BDC091E1DE2C71B0022AAEC /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				0BDC09201DE2C7500022AAEC /* HZRootTabBarViewController.h */,
+				0BDC09211DE2C7500022AAEC /* HZRootTabBarViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		0BDC091F1DE2C71B0022AAEC /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		0BDC09231DE2C7B20022AAEC /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				0BDC09241DE2C7B20022AAEC /* Controller */,
+				0BDC09251DE2C7B20022AAEC /* Model */,
+				0BDC09261DE2C7B20022AAEC /* View */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		0BDC09241DE2C7B20022AAEC /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				0BDC094B1DE2D47C0022AAEC /* HZHomeViewController.h */,
+				0BDC094C1DE2D47C0022AAEC /* HZHomeViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		0BDC09251DE2C7B20022AAEC /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		0BDC09261DE2C7B20022AAEC /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		0BDC09271DE2C7B20022AAEC /* Mine */ = {
+			isa = PBXGroup;
+			children = (
+				0BDC09281DE2C7B20022AAEC /* Controller */,
+				0BDC09291DE2C7B20022AAEC /* Model */,
+				0BDC092A1DE2C7B20022AAEC /* View */,
+			);
+			path = Mine;
+			sourceTree = "<group>";
+		};
+		0BDC09281DE2C7B20022AAEC /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				0BDC094E1DE2D4890022AAEC /* HZMineViewController.h */,
+				0BDC094F1DE2D4890022AAEC /* HZMineViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		0BDC09291DE2C7B20022AAEC /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		0BDC092A1DE2C7B20022AAEC /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		0BDC09351DE2CB250022AAEC /* UIView */ = {
+			isa = PBXGroup;
+			children = (
+				0BDC09361DE2CBBC0022AAEC /* UIView+CalcLayout.h */,
+				0BDC09371DE2CBBC0022AAEC /* UIView+CalcLayout.m */,
+			);
+			path = UIView;
+			sourceTree = "<group>";
+		};
+		0BDC093A1DE2D1CC0022AAEC /* View */ = {
+			isa = PBXGroup;
+			children = (
+				0BDC093B1DE2D1ED0022AAEC /* HZBaseTableViewCell.h */,
+				0BDC093C1DE2D1ED0022AAEC /* HZBaseTableViewCell.m */,
+				0BDC093E1DE2D2370022AAEC /* HZBaseLine.h */,
+				0BDC093F1DE2D2370022AAEC /* HZBaseLine.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		0BDC09411DE2D4210022AAEC /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				0BDC09421DE2D43B0022AAEC /* HZBaseListViewController.h */,
+				0BDC09431DE2D43B0022AAEC /* HZBaseListViewController.m */,
+				0BDC09441DE2D43B0022AAEC /* HZBaseViewController.h */,
+				0BDC09451DE2D43B0022AAEC /* HZBaseViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		10DED8405A23683C5D9183E2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5DB595E10795740A78367FCE /* Pods-HZPerfectProject.debug.xcconfig */,
+				53BF0C8DC1E8038CE27AA87F /* Pods-HZPerfectProject.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		E670FD8B0B6E9F775C252F8A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				72AF1C745295A75DCFE1EA38 /* libPods-HZPerfectProject.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -147,9 +422,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0BBF25851DD4494500165883 /* Build configuration list for PBXNativeTarget "HZPerfectProject" */;
 			buildPhases = (
+				C2B0CC1E1FD417CC07D456C3 /* Check Pods Manifest.lock */,
 				0BBF25541DD4494400165883 /* Sources */,
 				0BBF25551DD4494400165883 /* Frameworks */,
 				0BBF25561DD4494400165883 /* Resources */,
+				7857DB7424027116E61B1C1F /* Embed Pods Frameworks */,
+				C428E4BBA3073F247D9F61AD /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -246,9 +524,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0BBF256B1DD4494400165883 /* LaunchScreen.storyboard in Resources */,
-				0BBF25681DD4494400165883 /* Assets.xcassets in Resources */,
-				0BBF25661DD4494400165883 /* Main.storyboard in Resources */,
+				0BBF25B71DD44DE400165883 /* Info.plist in Resources */,
+				0BBF25B01DD44D8F00165883 /* Main.storyboard in Resources */,
+				0BBF25AA1DD44D8F00165883 /* Assets.xcassets in Resources */,
+				0BBF25AD1DD44D8F00165883 /* LaunchScreen.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -256,6 +535,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0BBF25B81DD44DE400165883 /* Info.plist in Resources */,
+				0BBF25B11DD44D8F00165883 /* Main.storyboard in Resources */,
+				0BBF25AB1DD44D8F00165883 /* Assets.xcassets in Resources */,
+				0BBF25AE1DD44D8F00165883 /* LaunchScreen.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -263,19 +546,79 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0BBF25B91DD44DE400165883 /* Info.plist in Resources */,
+				0BBF25B21DD44D8F00165883 /* Main.storyboard in Resources */,
+				0BBF25AC1DD44D8F00165883 /* Assets.xcassets in Resources */,
+				0BBF25AF1DD44D8F00165883 /* LaunchScreen.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		7857DB7424027116E61B1C1F /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HZPerfectProject/Pods-HZPerfectProject-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C2B0CC1E1FD417CC07D456C3 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		C428E4BBA3073F247D9F61AD /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HZPerfectProject/Pods-HZPerfectProject-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		0BBF25541DD4494400165883 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0BBF25631DD4494400165883 /* ViewController.m in Sources */,
-				0BBF25601DD4494400165883 /* AppDelegate.m in Sources */,
+				0BDC093D1DE2D1ED0022AAEC /* HZBaseTableViewCell.m in Sources */,
+				0BDC09501DE2D4890022AAEC /* HZMineViewController.m in Sources */,
+				0BDC09471DE2D43B0022AAEC /* HZBaseViewController.m in Sources */,
+				0BDC09221DE2C7500022AAEC /* HZRootTabBarViewController.m in Sources */,
+				0BDC09381DE2CBBC0022AAEC /* UIView+CalcLayout.m in Sources */,
+				0BBF25A01DD44D2000165883 /* ViewController.m in Sources */,
+				0BBF259D1DD44D2000165883 /* AppDelegate.m in Sources */,
+				0BDC09461DE2D43B0022AAEC /* HZBaseListViewController.m in Sources */,
+				0BDC094D1DE2D47C0022AAEC /* HZHomeViewController.m in Sources */,
 				0BBF255D1DD4494400165883 /* main.m in Sources */,
+				0BDC09401DE2D2370022AAEC /* HZBaseLine.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -283,6 +626,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0BBF25A11DD44D2000165883 /* ViewController.m in Sources */,
+				0BBF259E1DD44D2000165883 /* AppDelegate.m in Sources */,
 				0BBF25761DD4494500165883 /* HZPerfectProjectTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -291,6 +636,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0BBF25A21DD44D2000165883 /* ViewController.m in Sources */,
+				0BBF259F1DD44D2000165883 /* AppDelegate.m in Sources */,
 				0BBF25811DD4494500165883 /* HZPerfectProjectUITests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -311,20 +658,22 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		0BBF25641DD4494400165883 /* Main.storyboard */ = {
+		0BBF25A51DD44D8F00165883 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				0BBF25651DD4494400165883 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		0BBF25691DD4494400165883 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				0BBF256A1DD4494400165883 /* Base */,
+				0BBF25A61DD44D8F00165883 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			path = Base.lproj;
+			sourceTree = "<group>";
+		};
+		0BBF25A71DD44D8F00165883 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0BBF25A81DD44D8F00165883 /* Base */,
+			);
+			name = Main.storyboard;
+			path = Base.lproj;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -420,8 +769,11 @@
 		};
 		0BBF25861DD4494500165883 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5DB595E10795740A78367FCE /* Pods-HZPerfectProject.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HZPerfectProject/HZPerfectProject-Prefix.pch";
 				INFOPLIST_FILE = HZPerfectProject/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.Andy.HZPerfectProject;
@@ -431,8 +783,11 @@
 		};
 		0BBF25871DD4494500165883 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 53BF0C8DC1E8038CE27AA87F /* Pods-HZPerfectProject.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HZPerfectProject/HZPerfectProject-Prefix.pch";
 				INFOPLIST_FILE = HZPerfectProject/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.Andy.HZPerfectProject;
@@ -505,6 +860,7 @@
 				0BBF25871DD4494500165883 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0BBF25881DD4494500165883 /* Build configuration list for PBXNativeTarget "HZPerfectProjectTests" */ = {
 			isa = XCConfigurationList;
@@ -513,6 +869,7 @@
 				0BBF258A1DD4494500165883 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0BBF258B1DD4494500165883 /* Build configuration list for PBXNativeTarget "HZPerfectProjectUITests" */ = {
 			isa = XCConfigurationList;
@@ -521,6 +878,7 @@
 				0BBF258D1DD4494500165883 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
