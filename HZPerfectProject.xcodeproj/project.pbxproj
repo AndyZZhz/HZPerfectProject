@@ -36,7 +36,7 @@
 		0BDC09471DE2D43B0022AAEC /* HZBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BDC09451DE2D43B0022AAEC /* HZBaseViewController.m */; };
 		0BDC094D1DE2D47C0022AAEC /* HZHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BDC094C1DE2D47C0022AAEC /* HZHomeViewController.m */; };
 		0BDC09501DE2D4890022AAEC /* HZMineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BDC094F1DE2D4890022AAEC /* HZMineViewController.m */; };
-		D9D0A471847FDB9C42BFA282 /* libPods-HZPerfectProject.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 72AF1C745295A75DCFE1EA38 /* libPods-HZPerfectProject.a */; };
+		3FDEB4962D356C4B3CECCCBD /* libPods-HZPerfectProject.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 811A047E6573BB4B007EBBC6 /* libPods-HZPerfectProject.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -92,9 +92,9 @@
 		0BDC094C1DE2D47C0022AAEC /* HZHomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HZHomeViewController.m; sourceTree = "<group>"; };
 		0BDC094E1DE2D4890022AAEC /* HZMineViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HZMineViewController.h; sourceTree = "<group>"; };
 		0BDC094F1DE2D4890022AAEC /* HZMineViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HZMineViewController.m; sourceTree = "<group>"; };
-		53BF0C8DC1E8038CE27AA87F /* Pods-HZPerfectProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HZPerfectProject.release.xcconfig"; path = "Pods/Target Support Files/Pods-HZPerfectProject/Pods-HZPerfectProject.release.xcconfig"; sourceTree = "<group>"; };
-		5DB595E10795740A78367FCE /* Pods-HZPerfectProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HZPerfectProject.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HZPerfectProject/Pods-HZPerfectProject.debug.xcconfig"; sourceTree = "<group>"; };
-		72AF1C745295A75DCFE1EA38 /* libPods-HZPerfectProject.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-HZPerfectProject.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		20EA1624AC24219D197E1941 /* Pods-HZPerfectProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HZPerfectProject.release.xcconfig"; path = "Pods/Target Support Files/Pods-HZPerfectProject/Pods-HZPerfectProject.release.xcconfig"; sourceTree = "<group>"; };
+		6EB9FCB9398C043816B8C656 /* Pods-HZPerfectProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HZPerfectProject.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HZPerfectProject/Pods-HZPerfectProject.debug.xcconfig"; sourceTree = "<group>"; };
+		811A047E6573BB4B007EBBC6 /* libPods-HZPerfectProject.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-HZPerfectProject.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,7 +102,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D9D0A471847FDB9C42BFA282 /* libPods-HZPerfectProject.a in Frameworks */,
+				3FDEB4962D356C4B3CECCCBD /* libPods-HZPerfectProject.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -130,8 +130,8 @@
 				0BBF25741DD4494500165883 /* HZPerfectProjectTests */,
 				0BBF257F1DD4494500165883 /* HZPerfectProjectUITests */,
 				0BBF25591DD4494400165883 /* Products */,
-				10DED8405A23683C5D9183E2 /* Pods */,
-				E670FD8B0B6E9F775C252F8A /* Frameworks */,
+				280A650E3AD773DF2D1BE043 /* Pods */,
+				44CDAD7AC34C24E74E1DDB4B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -398,19 +398,19 @@
 			path = Controller;
 			sourceTree = "<group>";
 		};
-		10DED8405A23683C5D9183E2 /* Pods */ = {
+		280A650E3AD773DF2D1BE043 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				5DB595E10795740A78367FCE /* Pods-HZPerfectProject.debug.xcconfig */,
-				53BF0C8DC1E8038CE27AA87F /* Pods-HZPerfectProject.release.xcconfig */,
+				6EB9FCB9398C043816B8C656 /* Pods-HZPerfectProject.debug.xcconfig */,
+				20EA1624AC24219D197E1941 /* Pods-HZPerfectProject.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
 		};
-		E670FD8B0B6E9F775C252F8A /* Frameworks */ = {
+		44CDAD7AC34C24E74E1DDB4B /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				72AF1C745295A75DCFE1EA38 /* libPods-HZPerfectProject.a */,
+				811A047E6573BB4B007EBBC6 /* libPods-HZPerfectProject.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -422,12 +422,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0BBF25851DD4494500165883 /* Build configuration list for PBXNativeTarget "HZPerfectProject" */;
 			buildPhases = (
-				C2B0CC1E1FD417CC07D456C3 /* Check Pods Manifest.lock */,
+				FA478E677886D0B45B00C6F2 /* 📦 Check Pods Manifest.lock */,
 				0BBF25541DD4494400165883 /* Sources */,
 				0BBF25551DD4494400165883 /* Frameworks */,
 				0BBF25561DD4494400165883 /* Resources */,
-				7857DB7424027116E61B1C1F /* Embed Pods Frameworks */,
-				C428E4BBA3073F247D9F61AD /* Copy Pods Resources */,
+				5E286DF237567411FC47FE09 /* 📦 Embed Pods Frameworks */,
+				C3D0AA18FE06207C3FC06014 /* 📦 Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -556,14 +556,14 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		7857DB7424027116E61B1C1F /* Embed Pods Frameworks */ = {
+		5E286DF237567411FC47FE09 /* 📦 Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Embed Pods Frameworks";
+			name = "📦 Embed Pods Frameworks";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -571,34 +571,34 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HZPerfectProject/Pods-HZPerfectProject-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		C2B0CC1E1FD417CC07D456C3 /* Check Pods Manifest.lock */ = {
+		C3D0AA18FE06207C3FC06014 /* 📦 Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Check Pods Manifest.lock";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
-			showEnvVarsInLog = 0;
-		};
-		C428E4BBA3073F247D9F61AD /* Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Copy Pods Resources";
+			name = "📦 Copy Pods Resources";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HZPerfectProject/Pods-HZPerfectProject-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FA478E677886D0B45B00C6F2 /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -769,7 +769,7 @@
 		};
 		0BBF25861DD4494500165883 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5DB595E10795740A78367FCE /* Pods-HZPerfectProject.debug.xcconfig */;
+			baseConfigurationReference = 6EB9FCB9398C043816B8C656 /* Pods-HZPerfectProject.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
@@ -783,7 +783,7 @@
 		};
 		0BBF25871DD4494500165883 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 53BF0C8DC1E8038CE27AA87F /* Pods-HZPerfectProject.release.xcconfig */;
+			baseConfigurationReference = 20EA1624AC24219D197E1941 /* Pods-HZPerfectProject.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
