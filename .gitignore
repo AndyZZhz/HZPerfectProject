@@ -1,0 +1,8 @@
+.git/*
+.DS_Store
+Podfile.lock
+Pods
+xcuserdata
+# xcsharedata
+HZPerfectProject.xcodeproj/xcshareddata/
+HZPerfectProject.xcworkspace/xcshareddata/
