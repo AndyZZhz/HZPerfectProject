@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0B6A16831DE445C2009C9675 /* HZNetworkManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B6A16821DE445C2009C9675 /* HZNetworkManager.m */; };
 		0BBF255D1DD4494400165883 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BBF255C1DD4494400165883 /* main.m */; };
 		0BBF25761DD4494500165883 /* HZPerfectProjectTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BBF25751DD4494500165883 /* HZPerfectProjectTests.m */; };
 		0BBF25811DD4494500165883 /* HZPerfectProjectUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BBF25801DD4494500165883 /* HZPerfectProjectUITests.m */; };
@@ -57,6 +58,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0B6A16811DE445C2009C9675 /* HZNetworkManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HZNetworkManager.h; sourceTree = "<group>"; };
+		0B6A16821DE445C2009C9675 /* HZNetworkManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HZNetworkManager.m; sourceTree = "<group>"; };
+		0B6A16841DE44664009C9675 /* HZAppMacro.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HZAppMacro.h; sourceTree = "<group>"; };
 		0BBF25581DD4494400165883 /* HZPerfectProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HZPerfectProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0BBF255C1DD4494400165883 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		0BBF25711DD4494500165883 /* HZPerfectProjectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HZPerfectProjectTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -205,6 +209,7 @@
 			children = (
 				0BDC09341DE2C91F0022AAEC /* HZViewDefine.h */,
 				0BDC09391DE2CDDB0022AAEC /* HZCategoryDefine.h */,
+				0B6A16841DE44664009C9675 /* HZAppMacro.h */,
 			);
 			path = Macro;
 			sourceTree = "<group>";
@@ -256,6 +261,8 @@
 		0BBF25BB1DD44EF100165883 /* NetWork */ = {
 			isa = PBXGroup;
 			children = (
+				0B6A16811DE445C2009C9675 /* HZNetworkManager.h */,
+				0B6A16821DE445C2009C9675 /* HZNetworkManager.m */,
 			);
 			path = NetWork;
 			sourceTree = "<group>";
@@ -608,6 +615,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0B6A16831DE445C2009C9675 /* HZNetworkManager.m in Sources */,
 				0BDC093D1DE2D1ED0022AAEC /* HZBaseTableViewCell.m in Sources */,
 				0BDC09501DE2D4890022AAEC /* HZMineViewController.m in Sources */,
 				0BDC09471DE2D43B0022AAEC /* HZBaseViewController.m in Sources */,
