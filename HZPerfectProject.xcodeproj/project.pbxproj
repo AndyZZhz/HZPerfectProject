@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		0B6A16831DE445C2009C9675 /* HZNetworkManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B6A16821DE445C2009C9675 /* HZNetworkManager.m */; };
+		0BA861D21DE56D75000E15D8 /* NSString+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BA861D11DE56D75000E15D8 /* NSString+Extension.m */; };
+		0BA861D51DE572BC000E15D8 /* HZGuideView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BA861D41DE572BC000E15D8 /* HZGuideView.m */; };
+		0BA861DA1DE574DB000E15D8 /* UIImage+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BA861D91DE574DB000E15D8 /* UIImage+Extension.m */; };
 		0BBF255D1DD4494400165883 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BBF255C1DD4494400165883 /* main.m */; };
 		0BBF25761DD4494500165883 /* HZPerfectProjectTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BBF25751DD4494500165883 /* HZPerfectProjectTests.m */; };
 		0BBF25811DD4494500165883 /* HZPerfectProjectUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BBF25801DD4494500165883 /* HZPerfectProjectUITests.m */; };
@@ -61,6 +64,15 @@
 		0B6A16811DE445C2009C9675 /* HZNetworkManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HZNetworkManager.h; sourceTree = "<group>"; };
 		0B6A16821DE445C2009C9675 /* HZNetworkManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HZNetworkManager.m; sourceTree = "<group>"; };
 		0B6A16841DE44664009C9675 /* HZAppMacro.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HZAppMacro.h; sourceTree = "<group>"; };
+		0BA861CD1DE56B61000E15D8 /* HZPersistentDefine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HZPersistentDefine.h; sourceTree = "<group>"; };
+		0BA861CE1DE56BE0000E15D8 /* HZPathDefine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HZPathDefine.h; sourceTree = "<group>"; };
+		0BA861D01DE56D75000E15D8 /* NSString+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Extension.h"; sourceTree = "<group>"; };
+		0BA861D11DE56D75000E15D8 /* NSString+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Extension.m"; sourceTree = "<group>"; };
+		0BA861D31DE572BC000E15D8 /* HZGuideView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HZGuideView.h; sourceTree = "<group>"; };
+		0BA861D41DE572BC000E15D8 /* HZGuideView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HZGuideView.m; sourceTree = "<group>"; };
+		0BA861D61DE573A6000E15D8 /* HZColorDefine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HZColorDefine.h; sourceTree = "<group>"; };
+		0BA861D81DE574DB000E15D8 /* UIImage+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Extension.h"; sourceTree = "<group>"; };
+		0BA861D91DE574DB000E15D8 /* UIImage+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Extension.m"; sourceTree = "<group>"; };
 		0BBF25581DD4494400165883 /* HZPerfectProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HZPerfectProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0BBF255C1DD4494400165883 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		0BBF25711DD4494500165883 /* HZPerfectProjectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HZPerfectProjectTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -127,6 +139,55 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0BA861CF1DE56D55000E15D8 /* NSString */ = {
+			isa = PBXGroup;
+			children = (
+				0BA861D01DE56D75000E15D8 /* NSString+Extension.h */,
+				0BA861D11DE56D75000E15D8 /* NSString+Extension.m */,
+			);
+			path = NSString;
+			sourceTree = "<group>";
+		};
+		0BA861D71DE5749C000E15D8 /* UIImage */ = {
+			isa = PBXGroup;
+			children = (
+				0BA861D81DE574DB000E15D8 /* UIImage+Extension.h */,
+				0BA861D91DE574DB000E15D8 /* UIImage+Extension.m */,
+			);
+			path = UIImage;
+			sourceTree = "<group>";
+		};
+		0BA861DB1DE57A8C000E15D8 /* CustomUI */ = {
+			isa = PBXGroup;
+			children = (
+				0BA861DC1DE57A8C000E15D8 /* Controller */,
+				0BA861DD1DE57A8C000E15D8 /* Model */,
+				0BA861DE1DE57A8C000E15D8 /* View */,
+			);
+			path = CustomUI;
+			sourceTree = "<group>";
+		};
+		0BA861DC1DE57A8C000E15D8 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		0BA861DD1DE57A8C000E15D8 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		0BA861DE1DE57A8C000E15D8 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		0BBF254F1DD4494400165883 = {
 			isa = PBXGroup;
 			children = (
@@ -207,9 +268,12 @@
 		0BBF25941DD44BE800165883 /* Macro */ = {
 			isa = PBXGroup;
 			children = (
-				0BDC09341DE2C91F0022AAEC /* HZViewDefine.h */,
-				0BDC09391DE2CDDB0022AAEC /* HZCategoryDefine.h */,
 				0B6A16841DE44664009C9675 /* HZAppMacro.h */,
+				0BDC09341DE2C91F0022AAEC /* HZViewDefine.h */,
+				0BA861CE1DE56BE0000E15D8 /* HZPathDefine.h */,
+				0BDC09391DE2CDDB0022AAEC /* HZCategoryDefine.h */,
+				0BA861CD1DE56B61000E15D8 /* HZPersistentDefine.h */,
+				0BA861D61DE573A6000E15D8 /* HZColorDefine.h */,
 			);
 			path = Macro;
 			sourceTree = "<group>";
@@ -217,6 +281,8 @@
 		0BBF25951DD44BFC00165883 /* Category */ = {
 			isa = PBXGroup;
 			children = (
+				0BA861D71DE5749C000E15D8 /* UIImage */,
+				0BA861CF1DE56D55000E15D8 /* NSString */,
 				0BDC09351DE2CB250022AAEC /* UIView */,
 			);
 			path = Category;
@@ -225,6 +291,7 @@
 		0BBF25961DD44C1500165883 /* Sections */ = {
 			isa = PBXGroup;
 			children = (
+				0BA861DB1DE57A8C000E15D8 /* CustomUI */,
 				0BDC09231DE2C7B20022AAEC /* Home */,
 				0BDC09271DE2C7B20022AAEC /* Mine */,
 			);
@@ -304,6 +371,8 @@
 		0BDC091F1DE2C71B0022AAEC /* View */ = {
 			isa = PBXGroup;
 			children = (
+				0BA861D31DE572BC000E15D8 /* HZGuideView.h */,
+				0BA861D41DE572BC000E15D8 /* HZGuideView.m */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -615,14 +684,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0BA861DA1DE574DB000E15D8 /* UIImage+Extension.m in Sources */,
 				0B6A16831DE445C2009C9675 /* HZNetworkManager.m in Sources */,
 				0BDC093D1DE2D1ED0022AAEC /* HZBaseTableViewCell.m in Sources */,
 				0BDC09501DE2D4890022AAEC /* HZMineViewController.m in Sources */,
 				0BDC09471DE2D43B0022AAEC /* HZBaseViewController.m in Sources */,
 				0BDC09221DE2C7500022AAEC /* HZRootTabBarViewController.m in Sources */,
 				0BDC09381DE2CBBC0022AAEC /* UIView+CalcLayout.m in Sources */,
+				0BA861D21DE56D75000E15D8 /* NSString+Extension.m in Sources */,
 				0BBF25A01DD44D2000165883 /* ViewController.m in Sources */,
 				0BBF259D1DD44D2000165883 /* AppDelegate.m in Sources */,
+				0BA861D51DE572BC000E15D8 /* HZGuideView.m in Sources */,
 				0BDC09461DE2D43B0022AAEC /* HZBaseListViewController.m in Sources */,
 				0BDC094D1DE2D47C0022AAEC /* HZHomeViewController.m in Sources */,
 				0BBF255D1DD4494400165883 /* main.m in Sources */,

@@ -29,4 +29,19 @@
  */
 #define DEF_SCREEN_FRAME  [UIScreen mainScreen].applicationFrame
 
+/**
+ *  判断屏幕尺寸是否为640*1136
+ *
+ *	@return	判断结果（YES:是 NO:不是）
+ */
+#define DEF_SCREEN_IS_640_1136 ([UIScreen instancesRespondToSelector:@selector(currentMode)] ? CGSizeEqualToSize(CGSizeMake(640, 1136), [[UIScreen mainScreen] currentMode].size) : NO)
+
+/**
+ *  判断是否为3.5屏
+ *
+ *	@return	判断结果（YES:是 NO:不是）
+ */
+#define DEF_640_960 ([UIScreen instancesRespondToSelector:@selector(currentMode)] ? CGSizeEqualToSize(CGSizeMake(640, 960), [[UIScreen mainScreen] currentMode].size) : NO)
+
+
 #endif /* HZViewDefine_h */

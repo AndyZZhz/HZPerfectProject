@@ -9,5 +9,7 @@
 #ifndef HZCategoryDefine_h
 #define HZCategoryDefine_h
 #import "UIView+CalcLayout.h"
+#import "NSString+Extension.h"
+#import "UIImage+Extension.h"
 
 #endif /* HZCategoryDefine_h */

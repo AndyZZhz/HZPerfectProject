@@ -31,7 +31,7 @@
 
     //
     self.mineVC = [[HZMineViewController alloc]init];
-    self.homeVC.tabBarItem.image = [UIImage imageNamed:@"icon_zxs"];
+    self.mineVC.tabBarItem.image = [UIImage imageNamed:@"icon_zxs"];
     self.mineVC.tabBarItem.selectedImage = [[UIImage imageNamed:@"icon_zxs_pre"]imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal];
     self.mineVC.title = @"我的";
     self.mineNavitationController = [[UINavigationController alloc]initWithRootViewController:self.mineVC];

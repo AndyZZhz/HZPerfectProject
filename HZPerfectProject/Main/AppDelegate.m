@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import "HZGuideView.h"
 
 @interface AppDelegate ()
 
@@ -24,6 +25,8 @@
     [self.window makeKeyAndVisible];
     self.tabBar = [[HZRootTabBarViewController alloc] init];
     self.window.rootViewController = self.tabBar;
+    [self showGuideHUD];
+//    [self showWatermarkHUD];
     return YES;
 }
 
@@ -53,6 +56,53 @@
 - (void)applicationWillTerminate:(UIApplication *)application {
     // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
 }
+#pragma mark - 显示引导页
+- (void)showGuideHUD{
+    if (![DEF_PERSISTENT_GET_OBJECT(@"showGuide") boolValue]){
+        //        DEF_PERSISTENT_SET_OBJECT([NSNumber numberWithBool:YES], @"showGuide");
+        HZGuideView *guide = [[HZGuideView alloc] initWithFrame:self.window.bounds];
+        [self.window addSubview:guide];
+    }
+}
 
+#pragma mark - 显示水印
+- (void)showWatermarkHUD{
+    // 文字水印
+    UILabel *l          = [[UILabel alloc] initWithFrame:CGRectMake(0, DEF_SCREEN_HEIGHT - 20, DEF_SCREEN_WIDTH, 20)];
+    l.backgroundColor   = [[UIColor whiteColor] colorWithAlphaComponent:.75];
+    l.font              = [UIFont systemFontOfSize:10];
+    l.textColor         = [UIColor blackColor];
+    l.text              = @"Copyright © 2016年 Andzzhz® All rights reserved.";
+    l.textAlignment     = NSTextAlignmentCenter;
+    [self.window addSubview:l];
+    [self.window bringSubviewToFront:l];
+    
+    /**
+     * 加阴影
+     * shadowColor阴影颜色
+     * shadowOffset阴影偏移,x向右偏移4，y向下偏移4，默认(0, -3),这个跟shadowRadius配合使用
+     * 阴影透明度，默认0
+     * 阴影半径，默认3
+     */
+    l.layer.shadowColor    = [UIColor blackColor].CGColor;
+    l.layer.shadowOffset   = CGSizeMake(0,-3);
+    l.layer.shadowRadius   = 3;
+    l.layer.shadowOpacity  = 0.5;
+    
+    
+    // 设置指定字符串的颜色值
+    NSMutableAttributedString *attributedStr = [[NSMutableAttributedString alloc] initWithString:l.text];
+    
+    // 指定颜色与字体
+    [attributedStr addAttribute:NSForegroundColorAttributeName
+                          value:[UIColor redColor]
+                          range:[l.text rangeOfString:@"Andzzhz®"]];
+    
+    [attributedStr addAttribute:NSFontAttributeName
+                          value:[UIFont systemFontOfSize:12]
+                          range:[l.text rangeOfString:@"™Andzzhz®"]];
+    // 设置修改后的文本
+    l.attributedText = attributedStr;
+}
 
 @end
