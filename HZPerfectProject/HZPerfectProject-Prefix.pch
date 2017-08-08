@@ -17,5 +17,6 @@
 #import "HZPersistentDefine.h"
 #import "HZPathDefine.h"
 #import "HZColorDefine.h"
+#import "HZNetworkManager.h"
 
 #endif /* HZPerfectProject_Prefix_pch */

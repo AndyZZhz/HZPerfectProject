@@ -16,8 +16,18 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view.
     self.view.backgroundColor = [UIColor orangeColor];
+    UIButton *testButton = [UIButton buttonWithType:UIButtonTypeCustom];
+    testButton.frame = CGRectMake(0, 0, 100, 30);
+    testButton.center = CGPointMake(DEF_SCREEN_WIDTH/2.0, DEF_SCREEN_HEIGHT/2.0);
+    testButton.backgroundColor = [UIColor greenColor];
+    [testButton setTitle:@"录制" forState:UIControlStateNormal];
+    [testButton addTarget:self action:@selector(testButtonClick:) forControlEvents:UIControlEventTouchUpInside];
+    [self.view addSubview:testButton];
+}
+
+- (void)testButtonClick:(UIButton *)sender{
+    SHOW_ALERTVC(self, @"cameraButtonClick");
 }
 
 - (void)didReceiveMemoryWarning {

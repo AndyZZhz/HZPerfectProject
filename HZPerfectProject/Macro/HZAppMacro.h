@@ -29,4 +29,16 @@
  */
 #define WS(weakSelf)  __weak __typeof(&*self)weakSelf = self
 
+
+/**
+ *	iOS8之后的AlertView的显示方式: UIAlertController
+ *
+ *	@param	_currentVC_      当前显示的ViewController。注意：这里一定要是VC
+ *	@param	_message_        提示文案
+ */
+#define SHOW_ALERTVC(_currentVC_ , _message_)   UIAlertController *alertController = [UIAlertController alertControllerWithTitle:@"温馨提示" message:_message_ preferredStyle:UIAlertControllerStyleAlert];\
+UIAlertAction *cancelAction = [UIAlertAction actionWithTitle:@"确定" style:UIAlertActionStyleCancel handler:nil];\
+[alertController addAction:cancelAction];\
+[_currentVC_ presentViewController:alertController animated:YES completion:nil];
+
 #endif /* HZAppMacro_h */

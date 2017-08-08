@@ -16,7 +16,30 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    self.tableView.separatorStyle = UITableViewCellSeparatorStyleSingleLine;
     // Do any additional setup after loading the view.
+}
+#pragma UITableView Delegate
+-(NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section{
+    return 5;
+}
+
+-(CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath{
+    return 44;
+}
+
+-(UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath{
+    static NSString *identifier = @"cellName";
+    UITableViewCell *houseCell = [tableView dequeueReusableCellWithIdentifier:identifier];
+    if (houseCell == nil) {
+        houseCell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:identifier];
+    }
+    houseCell.accessoryType = UITableViewCellAccessoryDisclosureIndicator;
+
+    houseCell.textLabel.text = @"123";
+    
+    
+    return houseCell;
 }
 
 - (void)didReceiveMemoryWarning {

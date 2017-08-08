@@ -25,8 +25,10 @@
     [self.window makeKeyAndVisible];
     self.tabBar = [[HZRootTabBarViewController alloc] init];
     self.window.rootViewController = self.tabBar;
-    [self showGuideHUD];
+//    [self showGuideHUD];
 //    [self showWatermarkHUD];
+
+
     return YES;
 }
 

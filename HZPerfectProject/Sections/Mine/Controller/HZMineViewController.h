@@ -6,8 +6,8 @@
 //  Copyright © 2016年 Andy. All rights reserved.
 //
 
-#import "HZBaseViewController.h"
+#import "HZBaseListViewController.h"
 
-@interface HZMineViewController : HZBaseViewController
+@interface HZMineViewController : HZBaseListViewController
 
 @end
