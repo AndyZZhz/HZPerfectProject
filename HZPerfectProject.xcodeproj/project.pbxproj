@@ -865,6 +865,8 @@
 			baseConfigurationReference = 6EB9FCB9398C043816B8C656 /* Pods-HZPerfectProject.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = "";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "HZPerfectProject/HZPerfectProject-Prefix.pch";
@@ -881,6 +883,8 @@
 			baseConfigurationReference = 20EA1624AC24219D197E1941 /* Pods-HZPerfectProject.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = "";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "HZPerfectProject/HZPerfectProject-Prefix.pch";
