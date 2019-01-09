@@ -9,6 +9,11 @@
 #ifndef HZAppMacro_h
 #define HZAppMacro_h
 
+#import "HZViewDefine.h"
+#import "HZPathDefine.h"
+#import "HZCategoryDefine.h"
+#import "HZColorDefine.h"
+
 /**
  *  NSLog DLog
  */
@@ -28,7 +33,6 @@
  *  weakSelf
  */
 #define WS(weakSelf)  __weak __typeof(&*self)weakSelf = self
-
 
 /**
  *	iOS8之后的AlertView的显示方式: UIAlertController

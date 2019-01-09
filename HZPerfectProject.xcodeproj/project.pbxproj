@@ -7,6 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0B05F3C921E5A11C001D0F69 /* NSString+URLParameter.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B05F3C821E5A11C001D0F69 /* NSString+URLParameter.m */; };
+		0B05F3CC21E5A2E5001D0F69 /* NSString+URLEncoding.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B05F3CB21E5A2E5001D0F69 /* NSString+URLEncoding.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		0B05F3CF21E5A3E6001D0F69 /* NSString+EmojiExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B05F3CE21E5A3E6001D0F69 /* NSString+EmojiExtension.m */; };
+		0B05F3D821E5C7D3001D0F69 /* NSString+HZSize.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B05F3D721E5C7D3001D0F69 /* NSString+HZSize.m */; };
+		0B05F3DC21E5C8A9001D0F69 /* UIWindow+HZVisible.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B05F3DB21E5C8A9001D0F69 /* UIWindow+HZVisible.m */; };
+		0B05F3E021E5C969001D0F69 /* UIButton+HZStyle.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B05F3DF21E5C969001D0F69 /* UIButton+HZStyle.m */; };
+		0B05F3E421E5CB66001D0F69 /* UILabel+HZStyle.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B05F3E321E5CB66001D0F69 /* UILabel+HZStyle.m */; };
+		0B05F3E821E5CC05001D0F69 /* NSArray+HZExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B05F3E721E5CC05001D0F69 /* NSArray+HZExtension.m */; };
 		0B24B5671E4C134400E6FBB4 /* HZImagePickerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B24B5661E4C134400E6FBB4 /* HZImagePickerViewController.m */; };
 		0B6A16831DE445C2009C9675 /* HZNetworkManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B6A16821DE445C2009C9675 /* HZNetworkManager.m */; };
 		0BA861D21DE56D75000E15D8 /* NSString+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BA861D11DE56D75000E15D8 /* NSString+Extension.m */; };
@@ -62,6 +70,22 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0B05F3C721E5A11C001D0F69 /* NSString+URLParameter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+URLParameter.h"; sourceTree = "<group>"; };
+		0B05F3C821E5A11C001D0F69 /* NSString+URLParameter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+URLParameter.m"; sourceTree = "<group>"; };
+		0B05F3CA21E5A2E5001D0F69 /* NSString+URLEncoding.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+URLEncoding.h"; sourceTree = "<group>"; };
+		0B05F3CB21E5A2E5001D0F69 /* NSString+URLEncoding.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+URLEncoding.m"; sourceTree = "<group>"; };
+		0B05F3CD21E5A3E6001D0F69 /* NSString+EmojiExtension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+EmojiExtension.h"; sourceTree = "<group>"; };
+		0B05F3CE21E5A3E6001D0F69 /* NSString+EmojiExtension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+EmojiExtension.m"; sourceTree = "<group>"; };
+		0B05F3D621E5C7D3001D0F69 /* NSString+HZSize.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+HZSize.h"; sourceTree = "<group>"; };
+		0B05F3D721E5C7D3001D0F69 /* NSString+HZSize.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+HZSize.m"; sourceTree = "<group>"; };
+		0B05F3DA21E5C8A9001D0F69 /* UIWindow+HZVisible.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIWindow+HZVisible.h"; sourceTree = "<group>"; };
+		0B05F3DB21E5C8A9001D0F69 /* UIWindow+HZVisible.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIWindow+HZVisible.m"; sourceTree = "<group>"; };
+		0B05F3DE21E5C969001D0F69 /* UIButton+HZStyle.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIButton+HZStyle.h"; sourceTree = "<group>"; };
+		0B05F3DF21E5C969001D0F69 /* UIButton+HZStyle.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIButton+HZStyle.m"; sourceTree = "<group>"; };
+		0B05F3E221E5CB66001D0F69 /* UILabel+HZStyle.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UILabel+HZStyle.h"; sourceTree = "<group>"; };
+		0B05F3E321E5CB66001D0F69 /* UILabel+HZStyle.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UILabel+HZStyle.m"; sourceTree = "<group>"; };
+		0B05F3E621E5CC05001D0F69 /* NSArray+HZExtension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSArray+HZExtension.h"; sourceTree = "<group>"; };
+		0B05F3E721E5CC05001D0F69 /* NSArray+HZExtension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSArray+HZExtension.m"; sourceTree = "<group>"; };
 		0B24B5651E4C134400E6FBB4 /* HZImagePickerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HZImagePickerViewController.h; sourceTree = "<group>"; };
 		0B24B5661E4C134400E6FBB4 /* HZImagePickerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HZImagePickerViewController.m; sourceTree = "<group>"; };
 		0B6A16811DE445C2009C9675 /* HZNetworkManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HZNetworkManager.h; sourceTree = "<group>"; };
@@ -142,11 +166,55 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0B05F3D921E5C896001D0F69 /* UIWindow */ = {
+			isa = PBXGroup;
+			children = (
+				0B05F3DA21E5C8A9001D0F69 /* UIWindow+HZVisible.h */,
+				0B05F3DB21E5C8A9001D0F69 /* UIWindow+HZVisible.m */,
+			);
+			path = UIWindow;
+			sourceTree = "<group>";
+		};
+		0B05F3DD21E5C937001D0F69 /* UIButton */ = {
+			isa = PBXGroup;
+			children = (
+				0B05F3DE21E5C969001D0F69 /* UIButton+HZStyle.h */,
+				0B05F3DF21E5C969001D0F69 /* UIButton+HZStyle.m */,
+			);
+			path = UIButton;
+			sourceTree = "<group>";
+		};
+		0B05F3E121E5CB52001D0F69 /* UILabel */ = {
+			isa = PBXGroup;
+			children = (
+				0B05F3E221E5CB66001D0F69 /* UILabel+HZStyle.h */,
+				0B05F3E321E5CB66001D0F69 /* UILabel+HZStyle.m */,
+			);
+			path = UILabel;
+			sourceTree = "<group>";
+		};
+		0B05F3E521E5CBC8001D0F69 /* NSArray */ = {
+			isa = PBXGroup;
+			children = (
+				0B05F3E621E5CC05001D0F69 /* NSArray+HZExtension.h */,
+				0B05F3E721E5CC05001D0F69 /* NSArray+HZExtension.m */,
+			);
+			path = NSArray;
+			sourceTree = "<group>";
+		};
 		0BA861CF1DE56D55000E15D8 /* NSString */ = {
 			isa = PBXGroup;
 			children = (
 				0BA861D01DE56D75000E15D8 /* NSString+Extension.h */,
 				0BA861D11DE56D75000E15D8 /* NSString+Extension.m */,
+				0B05F3C721E5A11C001D0F69 /* NSString+URLParameter.h */,
+				0B05F3C821E5A11C001D0F69 /* NSString+URLParameter.m */,
+				0B05F3CA21E5A2E5001D0F69 /* NSString+URLEncoding.h */,
+				0B05F3CB21E5A2E5001D0F69 /* NSString+URLEncoding.m */,
+				0B05F3CD21E5A3E6001D0F69 /* NSString+EmojiExtension.h */,
+				0B05F3CE21E5A3E6001D0F69 /* NSString+EmojiExtension.m */,
+				0B05F3D621E5C7D3001D0F69 /* NSString+HZSize.h */,
+				0B05F3D721E5C7D3001D0F69 /* NSString+HZSize.m */,
 			);
 			path = NSString;
 			sourceTree = "<group>";
@@ -284,6 +352,10 @@
 		0BBF25951DD44BFC00165883 /* Category */ = {
 			isa = PBXGroup;
 			children = (
+				0B05F3E521E5CBC8001D0F69 /* NSArray */,
+				0B05F3E121E5CB52001D0F69 /* UILabel */,
+				0B05F3DD21E5C937001D0F69 /* UIButton */,
+				0B05F3D921E5C896001D0F69 /* UIWindow */,
 				0BA861D71DE5749C000E15D8 /* UIImage */,
 				0BA861CF1DE56D55000E15D8 /* NSString */,
 				0BDC09351DE2CB250022AAEC /* UIView */,
@@ -507,7 +579,6 @@
 				0BBF25541DD4494400165883 /* Sources */,
 				0BBF25551DD4494400165883 /* Frameworks */,
 				0BBF25561DD4494400165883 /* Resources */,
-				5E286DF237567411FC47FE09 /* [CP] Embed Pods Frameworks */,
 				C3D0AA18FE06207C3FC06014 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
@@ -637,21 +708,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		5E286DF237567411FC47FE09 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HZPerfectProject/Pods-HZPerfectProject-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		C3D0AA18FE06207C3FC06014 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -664,7 +720,8 @@
 			);
 			name = "[CP] Copy Pods Resources";
 			outputPaths = (
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MJRefresh.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/WSProgressBundle.bundle",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -696,19 +753,27 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0B05F3CC21E5A2E5001D0F69 /* NSString+URLEncoding.m in Sources */,
 				0BA861DA1DE574DB000E15D8 /* UIImage+Extension.m in Sources */,
+				0B05F3CF21E5A3E6001D0F69 /* NSString+EmojiExtension.m in Sources */,
 				0B6A16831DE445C2009C9675 /* HZNetworkManager.m in Sources */,
 				0BDC093D1DE2D1ED0022AAEC /* HZBaseTableViewCell.m in Sources */,
 				0BDC09501DE2D4890022AAEC /* HZMineViewController.m in Sources */,
 				0BDC09471DE2D43B0022AAEC /* HZBaseViewController.m in Sources */,
 				0BDC09221DE2C7500022AAEC /* HZRootTabBarViewController.m in Sources */,
+				0B05F3D821E5C7D3001D0F69 /* NSString+HZSize.m in Sources */,
 				0BDC09381DE2CBBC0022AAEC /* UIView+CalcLayout.m in Sources */,
+				0B05F3E821E5CC05001D0F69 /* NSArray+HZExtension.m in Sources */,
 				0BA861D21DE56D75000E15D8 /* NSString+Extension.m in Sources */,
 				0BBF25A01DD44D2000165883 /* ViewController.m in Sources */,
 				0BBF259D1DD44D2000165883 /* AppDelegate.m in Sources */,
+				0B05F3DC21E5C8A9001D0F69 /* UIWindow+HZVisible.m in Sources */,
 				0B24B5671E4C134400E6FBB4 /* HZImagePickerViewController.m in Sources */,
+				0B05F3E021E5C969001D0F69 /* UIButton+HZStyle.m in Sources */,
+				0B05F3C921E5A11C001D0F69 /* NSString+URLParameter.m in Sources */,
 				0BA861D51DE572BC000E15D8 /* HZGuideView.m in Sources */,
 				0BDC09461DE2D43B0022AAEC /* HZBaseListViewController.m in Sources */,
+				0B05F3E421E5CB66001D0F69 /* UILabel+HZStyle.m in Sources */,
 				0BDC094D1DE2D47C0022AAEC /* HZHomeViewController.m in Sources */,
 				0BBF255D1DD4494400165883 /* main.m in Sources */,
 				0BDC09401DE2D2370022AAEC /* HZBaseLine.m in Sources */,

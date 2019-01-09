@@ -16,6 +16,11 @@
 - (NSString *)trim;
 
 /**
+ *  去除HTML
+ */
+- (NSString *)removeHTML;
+
+/**
  *  隐藏手机号码指定的范围，如 ---> 159xxxx4397
  *
  *  @param range 需要隐藏的数字范围。
@@ -52,13 +57,26 @@
 +(BOOL)isBlankString:(NSString*)string;
 
 /**
- * 字符串 表情符 的判断
+ *  判断字符串是否是url
+ *
+ *  @param string 字符串
+ *
+ *  @return 是否是url
  */
-+ (BOOL)stringContainsEmoji:(NSString *)string;
++ (BOOL)isStringUrl:(NSString *)string;
 
 /**
- * 字符串 去掉表情符号
+ * 获取随机的标识符
  */
-- (NSString*)removeEmoji;
++ (NSString *)getRandomUuid;
+
+/**
+ * 数字字符串保留一位有效小数
+ * 若字符串为 XX，则展示为：XX
+ * 若字符串为 XX.0，则展示为：XX
+ * 若字符串为 XX.XXX，则展示为：XX.X
+ */
+- (NSString *)safelyNumericStringToKeepOneDecimal;
+
 
 @end
